@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Туристичне Агентство</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img id="frame1" src="Frame 1.png" width="120px" alt="logo">
+    </div>
+    <div class="title">Туристичне Агентство</div>
+</div>
+
+<script>
+    var img = document.getElementById('frame1');
+    var deg = 0;
+    var animation;
+
+    img.onmouseover = function() {
+        animation = setInterval(function() {
+            img.style.transform = 'rotate(' + deg + 'deg)';
+            deg = (deg + 1) % 360;
+        }, 10);
+    };
+
+    img.onmouseout = function() {
+        clearInterval(animation);
+        img.style.transform = 'rotate(0deg)';
+    };
+</script>
+</div>
+
+
+<div class="nav-bar">
+  <a href="index.html">Головна</a>
+  <a href="index2.html">Тури</a>
+  <a href="index3.html">Контакти</a>
+</div>
+
+<div class="main">
+  <h2>Ласкаво просимо!</h2>
+  <p>Усі наші наявні тури:</p>
+
+</div>
+<div class="travel-card">
+  <div class="travel-image">
+    <img src="paris.jpg" alt="Париж">
+  </div>
+
+  <div class="travel-info"> Париж
+    <div class="travel-price">від $999</div>
+    <div class="travel-description">
+      Відкрийте для себе Париж, місто світла, з нашою ексклюзивною пропозицією. Відвідайте Ейфелеву вежу, символ Парижа та одну з найвідоміших споруд у світі. 
+     
+      </div>
+      <a href="#" class="buy">Купити</a>
+
+
+  
+  </div>
+</div>
+<div class="travel-card1">
+  <div class="travel-image1">
+    <img src="Rome.jpg" alt="Париж">
+  </div>
+
+  <div class="travel-info1"> Рим
+    <div class="travel-price1">від $999</div>
+    <div class="travel-description1">
+      Рим, вічне місто Італії, пропонує захоплюючу подорож у минуле з такими визначними пам’ятками, як Колізей, Пантеон та Форум Римський.
+       Відчуйте атмосферу італійської культури, насолоджуючись автентичною кухнею.</div>
+      <a href="#" class="buy">Купити</a>
+
+
+  </div>
+  </div>
+  <div class="travel-card2">
+    <div class="travel-image2">
+      <img src="london.jpg" alt="Париж">
+    </div>
+  
+    <div class="travel-info2"> Лондон
+      <div class="travel-price2">від $999</div>
+      <div class="travel-description2">
+        Лондон, столиця Великої Британії, відомий своїми історичними пам’ятками, такими як Біг-Бен, 
+        Тауерський міст та Букингемський палац. 
+        Відвідайте відомі музеї, такі як Британський музей та Національна галерея.</div>
+        <a href="#" class="buy">Купити</a>
+  
+  
+    
+    </div>
+  </div>
+  <div class="travel-card2">
+    <div class="travel-image2">
+      <img src="moscow.png" alt="Париж">
+    </div>
+  
+    <div class="travel-info2"> москва
+      <div class="travel-price2">безкоштовно</div>
+      <div class="travel-description2">
+      Ви любите запах попелу? Якщо так, вам пропонується тур у палаючу москву. На вас чекають: палаючі аніматори, палаючі будівлі. Все одним словом палає. Одна насолода, 
+      яка заставить вас радіти.
+    Скоро...</div>
+        <a href="#" class="buy">Купити</a>
+  
+  
+    </div>
+    </div>
+
+<div  class="footer">
+  <p>Авторське право © 2024 Туристичне Агентство</p>
+</div>
+
+</body>
+</html>

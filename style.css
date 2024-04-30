@@ -1,0 +1,311 @@
+body { font-family: Arial, sans-serif; }
+.header { background-color: #ffffff; font-size: 60px; display: flex; align-items: center; }
+.nav-bar { background-color: #333; overflow: hidden; }
+.nav-bar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+.nav-bar a:hover { background-color: #ddd; color: black; }
+.main { padding: 20px; }
+.footer { background-color: #f2f2f2; padding: 10px; text-align: center;  }
+h1 { display: central; position: absolute; left: 10px; }
+.title { flex: 1; position: absolute; left: 450px; }
+  
+.golovna {
+           
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 320px;
+}
+
+
+.travel-card {
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+  }
+
+
+
+  .travel-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .travel-info {
+    padding: 15px;
+    font-size: 20px;
+    color: #ff5722;
+    
+  }
+
+  .travel-price{
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .travel-description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .buy { 
+    color: #fff; 
+    background-color: #ff5722; 
+    border: 3px solid #ff5722; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+    text-decoration: none; 
+  }
+.buy:hover {
+    background-color: #ff7043; 
+    border-color: #ff7043;
+}
+
+  
+
+.travel-card1 {
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+  }
+
+  .travel-image1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .travel-info1{
+    padding: 15px;
+    font-size: 20px;
+    color: #ff5722;
+    
+  }
+
+  .travel-price1{
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .travel-description1 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+
+
+  .travel-card2 {
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+  }
+
+  .travel-image2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .travel-info2{
+    padding: 15px;
+    font-size: 20px;
+    color: #ff5722;
+    
+  }
+
+  .travel-price2{
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .travel-description2 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+
+
+  
+  .golovna {
+           
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 320px;
+}
+
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.pronas {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pronash2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pronas p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.pronas p:last-child {
+  margin-bottom: 20px;
+}
+
+.pronas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pronas ul li {
+  margin-bottom: 10px;
+}
+
+.pronas ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.pronas ul li a:hover {
+  text-decoration: underline;
+}
+
+.zvazok{
+
+text-align: center;
+font-size: 60px;
+display: inline;
+  
+}
+
+
+.form-container {
+  width: 1400px; 
+  padding: 16px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.form-container input[type=text], .form-container input[type=email] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: orange;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .btn:hover {
+  opacity: 1;
+}
+ 
+@media screen and (max-width: 1200px){
+.title{
+ left: auto;
+ left: 160px;
+ font-size: 40px;
+
+}
+
+.form-container {
+
+ width: 800px;
+
+}
+
+}
+@media screen and (max-width: 998px){
+  .title{
+   left: auto;
+   left: 160px;
+   font-size: 40px;
+  }
+  
+  .form-container {
+    
+    width: 700px;
+   
+}
+  @media screen and (max-width: 768px){
+    .title{
+     left: auto;
+     left: 160px;
+     font-size: 40px;
+}
+.form-container {
+  
+  width: 500px;
+ 
+ }
+ }
+  
+ @media screen and (max-width: 576px){
+  .title{
+   left: auto;
+   left: 160px;
+   font-size: 40px;
+  }
+  .form-container {
+   
+    width: 350px;
+   
+   }
+  }
+}
